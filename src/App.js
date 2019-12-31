@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <ThemeContextProvider>
         <AuthContextProvider>
-        <Navbar/>
-        <BookContextProvider>
-          <BookList/>
-        </BookContextProvider>
+          <BookContextProvider>
+            <Navbar/>
+            <BookList/>
+          </BookContextProvider>
         <ThemeToggle/>
         </AuthContextProvider>
       </ThemeContextProvider>
